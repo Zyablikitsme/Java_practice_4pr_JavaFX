@@ -15,8 +15,8 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         stage.setTitle("AC Milan VS Real Madrid");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
-
     }
 
     public static void main(String[] args) {

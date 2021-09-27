@@ -33,7 +33,7 @@ public class HelloController {
 
     protected void whoIsWinner(){
         if (madridScore > milanScore) label_winner.setText("Winner: Real Madrid");
-        else if (madridScore < milanScore) label_winner.setText("Winner: AC Mialn");
+        else if (madridScore < milanScore) label_winner.setText("Winner: AC Milan");
         else label_winner.setText("Winner: DRAW");
     }
 

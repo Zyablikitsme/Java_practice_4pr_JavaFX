@@ -9,7 +9,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test01.HelloController">
    <children>
-      <ImageView fx:id="im1" fitHeight="129.0" fitWidth="150.0" layoutX="62.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="438.0" fitWidth="646.0" opacity="0.53" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../thumb_l_32150.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="im1" fitHeight="129.0" fitWidth="150.0" layoutX="62.0" layoutY="211.0" onMouseClicked="#onMilan" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@acMilan.png" />
          </image>
@@ -30,7 +35,7 @@
             <Font size="39.0" />
          </font>
       </Label>
-      <ImageView fx:id="im2" fitHeight="129.0" fitWidth="150.0" layoutX="484.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="im2" fitHeight="129.0" fitWidth="150.0" layoutX="484.0" layoutY="211.0" onMouseClicked="#onMadrid" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Real_Madrid.png" />
          </image>
